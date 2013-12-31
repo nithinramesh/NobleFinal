@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteLogin.Master.cs"
+    Inherits="Noble.SiteLoginMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Noble-Login</title>
+    <%-- <link href="script-css/Loginstyle.css" rel="stylesheet" type="text/css" />--%>
+    <link href="Styles/login.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+<!--
+        function MM_effectHighlight(targetElement, duration, startColor, endColor, restoreColor, toggle) {
+            Spry.Effect.DoHighlight(targetElement, { duration: duration, from: startColor, to: endColor, restoreColor: restoreColor, toggle: toggle });
+        }
+//-->
+    </script>
+    <style type="text/css">
+<!--
+.style2 {color: #c9d7ed}
+.style3 {
+	color: #ABB8CB;
+	font-size: 24px;
+}
+-->
+</style>
+</head>
+<body>
+    <form runat="server">
+    <%-- <div class="wrapper">
+        <div class="headerWrapper">
+            <div class="bannerArea">
+                <div class="logoAlignner">
+                </div>
+            </div>
+            <div class="clearFloat">
+            </div>
+        </div>
+        <div class="innerContentWrapper">
+            <div class="loginTopAlign">
+            </div>
+            <div class="innerContentContainer">
+                <div class="innerContentArea">
+                    <div class="logContainer">
+                        <div class="loginCol">
+                            <img src="images/michael-kors_home.jpg" /><br />
+                            <img src="images/shadow.png" />
+                            <br />
+                        </div>
+                        <div class="loginArea">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>--%>
+    <div>
+        <div class="Wrapper">
+            <div class="top">
+                <div class="banner">
+                    <div class="logoContainer">
+                        <img src="images/logo.jpg" alt="Noble Reign logo" /></div>
+                    <div class="rightMenuContainer">
+                        <ul class="topMenu">
+                           <%-- <li><a>FAQ</a></li><li><a>Support</a></li><li><a>News</a></li>--%>
+                        </ul>
+                    </div>
+                </div>
+                <div class="breaker">
+                </div>
+            </div>
+            <div class="txtWrapper">
+                <h3 class="subheadYellow">
+                    Log<span class="style2">In</span></h3>
+            </div>
+            <div class="clearFloat">
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+            <div class="footer">
+                <div class="footerContainer">
+                    News | FAQ | Terms | Conditions | Privacy Policy | Why Choose Us | Download | Customer
+                    Support | TV advertisement<br />
+                    <br />
+                    Copyright © 1999 - 2014 Noble Reign Inc. All Rights Reserved Worldwide.</div>
+            </div>
+            <%-- <div class="footerWrapper">
+        <div class="footerContainer">
+            <img src="images/content-bttom-img.png" /><br />
+            <div class="footerLeft">
+                <a href="#" class="lnkGrey">
+                    <%--Suite 205-14, 4117 Lawrence Avenue East, Toronto, Ontario,
+                    M1E 2S2, Canada. Tel: 647 477 2197 Fax: 647 477 5983<br />
+                    Noble OPTICAL<br />
+                    Latha Sri - Optician<br />
+                    3852 FINCH AVE, EAST. UNIT#G04<br />
+                    SCARBOROUGH, ON<br />
+                    M1T-3T9<br />
+                    TEL : 416-298-2111<br />
+                    Fax: (647) 477 5983<br />
+                    DIRECT : 416-402-3947<br />
+            </div>
+            <div class="footerRight">
+                <div class="imageAligner">
+                </div>
+                <br />
+            </div>
+        </div>
+    </div>--%>
+    </form>
+</body>
+</html>

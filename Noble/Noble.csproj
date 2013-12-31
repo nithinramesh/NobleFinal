@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A58F23A6-A4B9-4087-AFAB-FBEEE10C9CB0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Noble</RootNamespace>
+    <AssemblyName>Noble</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>.\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Words, Version=9.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NobleBLL">
+      <HintPath>..\NobleBLL\bin\Debug\NobleBLL.dll</HintPath>
+    </Reference>
+    <Reference Include="NobleDAL">
+      <HintPath>..\NobleDAL\bin\Debug\NobleDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="NobleEntity">
+      <HintPath>..\NobleEntity\bin\Debug\NobleEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Telerik.Web.Design">
+      <HintPath>..\..\..\..\..\Users\30076886\Desktop\mywork\Telerik\Ravi\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\..\..\..\Users\30076886\Desktop\mywork\Telerik\Ravi\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Admin\DeleteAdmin.aspx" />
+    <Content Include="Admin\EditAdmin.aspx" />
+    <Content Include="Admin\ManageAdmin.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\Aspose.Pdf.Kit.dll" />
+    <Content Include="bin\Aspose.Words.dll" />
+    <Content Include="bin\Telerik.Web.Design.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="Calendar\CalendarSchedular.ascx" />
+    <Content Include="Calendar\Schedular.aspx" />
+    <Content Include="EmployerLogin.aspx" />
+    <Content Include="Employer\EmployerFileAssign.aspx" />
+    <Content Include="Employer\DeleteEmployer.aspx" />
+    <Content Include="Employer\EditEmployer.aspx" />
+    <Content Include="Employer\EmpLandingPage.aspx" />
+    <Content Include="Employer\ManageEmployer.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="FileUpload\FileNotFound.aspx" />
+    <Content Include="FileUpload\FileUpload.aspx" />
+    <Content Include="images\arrow-down.png" />
+    <Content Include="images\arrow-up.png" />
+    <Content Include="images\arrow-up1.png" />
+    <Content Include="images\Avanto.JPG" />
+    <Content Include="images\banner-bg.gif" />
+    <Content Include="images\banner-bg.jpg" />
+    <Content Include="images\blue-button.gif" />
+    <Content Include="images\button-white.gif" />
+    <Content Include="images\content-bg.gif" />
+    <Content Include="images\content-bg2.gif" />
+    <Content Include="images\content-bttom-img.png" />
+    <Content Include="images\content-left.png" />
+    <Content Include="images\content-right.png" />
+    <Content Include="images\content-table-bg.gif" />
+    <Content Include="images\content-top-img.png" />
+    <Content Include="images\delete-button.png" />
+    <Content Include="images\edit-button.png" />
+    <Content Include="images\FileUpload\Excel.png" />
+    <Content Include="images\FileUpload\ms_word_2_32.png" />
+    <Content Include="images\FileUpload\notepad.jpg" />
+    <Content Include="images\FileUpload\OneNote.png" />
+    <Content Include="images\FileUpload\pdf_icon_32_pdf.gif" />
+    <Content Include="images\flash-img.jpg" />
+    <Content Include="images\flash2-img.jpg" />
+    <Content Include="images\footer-bg.gif" />
+    <Content Include="images\footer-img.png" />
+    <Content Include="images\grey-button.jpg" />
+    <Content Include="images\header-bg.gif" />
+    <Content Include="images\header-content-bg.png" />
+    <Content Include="images\header-content-bg2.png" />
+    <Content Include="images\header-content-bg3.png" />
+    <Content Include="images\iccrc-image-2.jpg" />
+    <Content Include="images\iccrc-image.jpg" />
+    <Content Include="images\iccrc-in4-5cm300dpiequalent.gif" />
+    <Content Include="images\iccrc-in4-5cm300dpiequalent.png" />
+    <Content Include="images\iccrc.gif" />
+    <Content Include="images\iccrc.png" />
+    <Content Include="images\img-one.jpg" />
+    <Content Include="images\img-three.jpg" />
+    <Content Include="images\img-two.jpg" />
+    <Content Include="images\inner-header-bg.gif" />
+    <Content Include="images\inner-header-img.gif" />
+    <Content Include="images\landing-shadow.png" />
+    <Content Include="images\left-arrow.png" />
+    <Content Include="images\line-horizontal.gif" />
+    <Content Include="images\line-vertical.gif" />
+    <Content Include="images\login-bg.png" />
+    <Content Include="images\login-blue-button.png" />
+    <Content Include="images\login-box.gif" />
+    <Content Include="images\login-btm-bg.png" />
+    <Content Include="images\login-top-bg.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\menu-bg.gif" />
+    <Content Include="images\michael-kors_home.jpg" />
+    <Content Include="images\min.png" />
+    <Content Include="images\ms_word_2_32.png" />
+    <Content Include="images\plus.png" />
+    <Content Include="images\right-arrow.png" />
+    <Content Include="images\right-content-bottm-.png" />
+    <Content Include="images\right-content-left.png" />
+    <Content Include="images\right-content-right.png" />
+    <Content Include="images\right-menu-bg.png" />
+    <Content Include="images\search_button.png" />
+    <Content Include="images\shadow.png" />
+    <Content Include="images\table-top-bg.gif" />
+    <Content Include="images\x1.png" />
+    <Content Include="images\x2.png" />
+    <Content Include="images\x3.png" />
+    <Content Include="images\x4.png" />
+    <Content Include="images\x5.png" />
+    <Content Include="images\yellow-button.jpg" />
+    <Content Include="images\yellow-button.png" />
+    <Content Include="Invoice\AddProducts.ascx" />
+    <Content Include="Invoice\Invoice.aspx" />
+    <Content Include="Invoice\InvoiceEdit.ascx" />
+    <Content Include="LandingPage.aspx" />
+    <Content Include="ManageProductcategory.aspx" />
+    <Content Include="MemberPopup\MemberPopup.ascx" />
+    <Content Include="MemberPopup\SelectMember.aspx" />
+    <Content Include="Member\ManageMember.aspx" />
+    <Content Include="Member\MemberCS.ascx" />
+    <Content Include="Messages.xml" />
+    <Content Include="NewsLetter\AddOrUpdateContacts.aspx" />
+    <Content Include="NewsLetter\AddTemplate.aspx" />
+    <Content Include="NewsLetter\ContactList.aspx" />
+    <Content Include="NewsLetter\CustomizeTemplate.aspx" />
+    <Content Include="NewsLetter\EmailCategoryList.aspx" />
+    <Content Include="NewsLetter\HTMLTemplates\Sample.htm" />
+    <Content Include="NewsLetter\MailStatusReport.aspx" />
+    <Content Include="NewsLetter\RecepCategoriesPopup.aspx" />
+    <Content Include="NewsLetter\SendMail.aspx" />
+    <Content Include="NewsLetter\TemplateList.aspx" />
+    <Content Include="Noble.Publish.xml" />
+    <Content Include="NotesEdit.ascx" />
+    <Content Include="Notes\EditNotes.aspx" />
+    <Content Include="Notes\ManageNotes.aspx" />
+    <Content Include="images\NilaxLogo1.png" />
+    <Content Include="images\NilaxLogo2.png" />
+    <Content Include="Notes\UCManageNotes.ascx" />
+    <Content Include="ProductCategoryCS.ascx" />
+    <Content Include="ProductCS.ascx" />
+    <Content Include="Products.aspx" />
+    <Content Include="Quotation\AddQuotation.aspx" />
+    <Content Include="Quotation\AddQuotationDetails.ascx" />
+    <Content Include="Quotation\Quotation.aspx" />
+    <Content Include="Quotation\QuotationEdit.ascx" />
+    <Content Include="Styles\login.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DeleteAdmin.aspx.cs">
+      <DependentUpon>DeleteAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DeleteAdmin.aspx.designer.cs">
+      <DependentUpon>DeleteAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditAdmin.aspx.cs">
+      <DependentUpon>EditAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditAdmin.aspx.designer.cs">
+      <DependentUpon>EditAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageAdmin.aspx.cs">
+      <DependentUpon>ManageAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageAdmin.aspx.designer.cs">
+      <DependentUpon>ManageAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\CalendarSchedular.ascx.cs">
+      <DependentUpon>CalendarSchedular.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar\CalendarSchedular.ascx.designer.cs">
+      <DependentUpon>CalendarSchedular.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\Schedular.aspx.cs">
+      <DependentUpon>Schedular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar\Schedular.aspx.designer.cs">
+      <DependentUpon>Schedular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\EncryptionUtility.cs" />
+    <Compile Include="Common\MailUtility.cs" />
+    <Compile Include="Common\XMLParser.cs" />
+    <Compile Include="Employer.Master.cs">
+      <DependentUpon>Employer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer.Master.designer.cs">
+      <DependentUpon>Employer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="EmployerLogin.aspx.cs">
+      <DependentUpon>EmployerLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployerLogin.aspx.designer.cs">
+      <DependentUpon>EmployerLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\EmployerFileAssign.aspx.cs">
+      <DependentUpon>EmployerFileAssign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\EmployerFileAssign.aspx.designer.cs">
+      <DependentUpon>EmployerFileAssign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\DeleteEmployer.aspx.cs">
+      <DependentUpon>DeleteEmployer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\DeleteEmployer.aspx.designer.cs">
+      <DependentUpon>DeleteEmployer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\EditEmployer.aspx.cs">
+      <DependentUpon>EditEmployer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\EditEmployer.aspx.designer.cs">
+      <DependentUpon>EditEmployer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\EmpLandingPage.aspx.cs">
+      <DependentUpon>EmpLandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\EmpLandingPage.aspx.designer.cs">
+      <DependentUpon>EmpLandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\ManageEmployer.aspx.cs">
+      <DependentUpon>ManageEmployer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\ManageEmployer.aspx.designer.cs">
+      <DependentUpon>ManageEmployer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileUpload\FileNotFound.aspx.cs">
+      <DependentUpon>FileNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUpload\FileNotFound.aspx.designer.cs">
+      <DependentUpon>FileNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\AddProducts.ascx.cs">
+      <DependentUpon>AddProducts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoice\AddProducts.ascx.designer.cs">
+      <DependentUpon>AddProducts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\Invoice.aspx.cs">
+      <DependentUpon>Invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoice\Invoice.aspx.designer.cs">
+      <DependentUpon>Invoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\InvoiceEdit.ascx.cs">
+      <DependentUpon>InvoiceEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoice\InvoiceEdit.ascx.designer.cs">
+      <DependentUpon>InvoiceEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="LandingPage.aspx.designer.cs">
+      <DependentUpon>LandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProductcategory.aspx.cs">
+      <DependentUpon>ManageProductcategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProductcategory.aspx.designer.cs">
+      <DependentUpon>ManageProductcategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPopup\MemberPopup.ascx.designer.cs">
+      <DependentUpon>MemberPopup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPopup\SelectMember.aspx.cs">
+      <DependentUpon>SelectMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPopup\SelectMember.aspx.designer.cs">
+      <DependentUpon>SelectMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Member\MemberCS.ascx.cs">
+      <DependentUpon>MemberCS.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\MemberCS.ascx.designer.cs">
+      <DependentUpon>MemberCS.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\AddOrUpdateContacts.aspx.cs">
+      <DependentUpon>AddOrUpdateContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\AddOrUpdateContacts.aspx.designer.cs">
+      <DependentUpon>AddOrUpdateContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\AddTemplate.aspx.designer.cs">
+      <DependentUpon>AddTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\ContactList.aspx.cs">
+      <DependentUpon>ContactList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\ContactList.aspx.designer.cs">
+      <DependentUpon>ContactList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\CustomizeTemplate.aspx.designer.cs">
+      <DependentUpon>CustomizeTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\EmailCategoryList.aspx.cs">
+      <DependentUpon>EmailCategoryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\EmailCategoryList.aspx.designer.cs">
+      <DependentUpon>EmailCategoryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\MailStatusReport.aspx.cs">
+      <DependentUpon>MailStatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\MailStatusReport.aspx.designer.cs">
+      <DependentUpon>MailStatusReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\RecepCategoriesPopup.aspx.cs">
+      <DependentUpon>RecepCategoriesPopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\RecepCategoriesPopup.aspx.designer.cs">
+      <DependentUpon>RecepCategoriesPopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NotesEdit.ascx.cs">
+      <DependentUpon>NotesEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NotesEdit.ascx.designer.cs">
+      <DependentUpon>NotesEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\EditNotes.aspx.cs">
+      <DependentUpon>EditNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notes\EditNotes.aspx.designer.cs">
+      <DependentUpon>EditNotes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\ManageNotes.aspx.cs">
+      <DependentUpon>ManageNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notes\ManageNotes.aspx.designer.cs">
+      <DependentUpon>ManageNotes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileUpload\FileUpload.aspx.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUpload\FileUpload.aspx.designer.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPopup\MemberPopup.ascx.cs">
+      <DependentUpon>MemberPopup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\ManageMember.aspx.cs">
+      <DependentUpon>ManageMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member\ManageMember.aspx.designer.cs">
+      <DependentUpon>ManageMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\AddTemplate.aspx.cs">
+      <DependentUpon>AddTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\CustomizeTemplate.aspx.cs">
+      <DependentUpon>CustomizeTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\SendMail.aspx.cs">
+      <DependentUpon>SendMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\SendMail.aspx.designer.cs">
+      <DependentUpon>SendMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsLetter\TemplateList.aspx.cs">
+      <DependentUpon>TemplateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsLetter\TemplateList.aspx.designer.cs">
+      <DependentUpon>TemplateList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\UCManageNotes.ascx.cs">
+      <DependentUpon>UCManageNotes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notes\UCManageNotes.ascx.designer.cs">
+      <DependentUpon>UCManageNotes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCategoryCS.ascx.cs">
+      <DependentUpon>ProductCategoryCS.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductCategoryCS.ascx.designer.cs">
+      <DependentUpon>ProductCategoryCS.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCS.ascx.cs">
+      <DependentUpon>ProductCS.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductCS.ascx.designer.cs">
+      <DependentUpon>ProductCS.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quotation\AddQuotation.aspx.cs">
+      <DependentUpon>AddQuotation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quotation\AddQuotation.aspx.designer.cs">
+      <DependentUpon>AddQuotation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quotation\AddQuotationDetails.ascx.cs">
+      <DependentUpon>AddQuotationDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quotation\AddQuotationDetails.ascx.designer.cs">
+      <DependentUpon>AddQuotationDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Quotation\Quotation.aspx.cs">
+      <DependentUpon>Quotation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quotation\Quotation.aspx.designer.cs">
+      <DependentUpon>Quotation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quotation\QuotationEdit.ascx.cs">
+      <DependentUpon>QuotationEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quotation\QuotationEdit.ascx.designer.cs">
+      <DependentUpon>QuotationEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteLogin.Master.cs">
+      <DependentUpon>SiteLogin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteLogin.Master.designer.cs">
+      <DependentUpon>SiteLogin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LandingPage.aspx.cs">
+      <DependentUpon>LandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="FileUpload\UploadedUserFiles\Invoice\" />
+    <Folder Include="FileUpload\UploadedUserFiles\Quotation\" />
+    <Folder Include="NewsLetter\ThumpImages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteLogin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\AAC\AACSkin.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Employer.Master" />
+    <None Include="bin\Aspose.Pdf.Kit.lic" />
+    <None Include="bin\Aspose.Words.lic" />
+    <None Include="Docs\invoice.doc" />
+    <None Include="Docs\Quotation.doc" />
+    <None Include="Invoice\Docs\invoice.doc" />
+    <None Include="Invoice\Docs\Quotation.doc" />
+    <None Include="Noble.idc" />
+    <None Include="Quotation\Docs\invoice.doc" />
+    <None Include="Quotation\Docs\Quotation.doc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3157</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

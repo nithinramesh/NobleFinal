@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>Buck Consultants Limited</LicensedTo>
+    <LicenseType>Developer Enterprise Subscription</LicenseType>
+    <LicenseNote>Limited to 1 developer.</LicenseNote>
+    <OrderID>100525101107</OrderID>
+    <OEM>This is not a non-redistributable license</OEM>
+    <Products>
+      <Product>Aspose.Pdf.Kit for .NET</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>463f5da5-d14e-4435-8047-f62c9be308ab</SerialNumber>
+    <SubscriptionExpiry>20110525</SubscriptionExpiry>
+    <LicenseVersion>2.2</LicenseVersion>
+  </Data>
+  <Signature>R6I1uu5RliDh5wa6RqpM9CchLeJhpx+gNBUT66QPtON/WYcAk3VG4iiqKh/A/9N6fSdf3MKrmRfTXszS2zyqdKJsdwxdDmzMbHvohoO8vDLFKU2JQX3uImu9XOuZe0fFYt8YuHKlWbhKpVxnf65vSYY4y5g2eqlX7y8wXJ10snU=</Signature>
+</License>

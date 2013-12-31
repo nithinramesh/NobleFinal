@@ -1,0 +1,14 @@
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourDAL\bin\Debug\AnnArbourDAL.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourDAL\bin\Debug\AnnArbourDAL.pdb
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourDAL\bin\Debug\AnnArbourEntity.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourDAL\bin\Debug\AnnArbourEntity.pdb
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourDAL\obj\Debug\AnnArbourDAL.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourDAL\obj\Debug\AnnArbourDAL.pdb
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxDAL\bin\Debug\NilaxEntity.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxDAL\bin\Debug\NilaxEntity.pdb
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxDAL\bin\Debug\NilaxDAL.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxDAL\bin\Debug\NilaxDAL.pdb
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxDAL\obj\Debug\NilaxDAL.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxDAL\obj\Debug\NilaxDAL.pdb

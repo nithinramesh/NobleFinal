@@ -1,0 +1,10 @@
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourEntity\bin\Debug\AnnArbourEntity.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourEntity\bin\Debug\AnnArbourEntity.pdb
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourEntity\obj\Debug\ResolveAssemblyReference.cache
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourEntity\obj\Debug\AnnArbourEntity.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\AnnArbourEntity\obj\Debug\AnnArbourEntity.pdb
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxEntity\obj\Debug\ResolveAssemblyReference.cache
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxEntity\bin\Debug\NilaxEntity.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxEntity\bin\Debug\NilaxEntity.pdb
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxEntity\obj\Debug\NilaxEntity.dll
+C:\Bijoy\Projects\AnnArbourTelerik\NilaxDemo\NilaxEntity\obj\Debug\NilaxEntity.pdb

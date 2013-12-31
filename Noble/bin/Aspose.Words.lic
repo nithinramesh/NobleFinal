@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>Buck Consultants Limited</LicensedTo>
+    <LicenseType>Developer Enterprise Subscription</LicenseType>
+    <LicenseNote>Limited to 1 developer.</LicenseNote>
+    <OrderID>100727110748</OrderID>
+    <OEM>This is not a non-redistributable license</OEM>
+    <Products>
+      <Product>Aspose.Words for .NET</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>7a58082e-35f1-4829-96f2-d8947ae0fab3</SerialNumber>
+    <SubscriptionExpiry>20110727</SubscriptionExpiry>
+    <LicenseVersion>2.2</LicenseVersion>
+  </Data>
+  <Signature>RRJKcf/875XAEmKzp83FIwxGns5SibAY3K6Nz8i7d3UgBbqLoFaGePzei8jePXsV2erUx1bwpVosWUBuQnVCzw8jf5YwcodARUy8sgeZN6DlyaYuD2j14W8arY4QhBGE65TZA5CVNtotk6YvxEmNffrfoR9Dxch9/vOSZ3PAPYk=</Signature>
+</License>
